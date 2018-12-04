@@ -1,0 +1,29 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/N4GI5Zq.jpg");
+}
+
+h1 {
+    font-family: 'Noto Serif', serif;
+}
+
+h3 {
+    background-color: white;
+    border-radius: 5px;
+}
+
+#firstClick {
+
+    border-radius: 5px;
+}
+
+#secondClick {
+    border-radius: 5px;
+}
+
+#thirdClick {
+    border-radius: 5px;
+}
+
+#fourthClick {
+    border-radius: 5px
+}

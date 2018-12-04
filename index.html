@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
    <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" /> -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
     <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -18,37 +18,51 @@
 
 </head>
 <body>
-<div>
-<h1 class="myTitle">The Kitten Game</h1>
+
+<div class="container">
+<div class="row">
+<div class = "col">
+<h1>The Kitten Game <span id="kitten-game"></span></h1>
 </div>
-<div> <h2>Winning Number
-    <span id="winning-number"></span> </h2>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-3" >
+    <h3>Winning Number:
+    <span id="winning-number"></span> </h3>
     </div>
-    <div> <h2>Total Number
-        <span id="total-number"></span> </h2>
+    
+
+    <div class="col-md-3"> <h3>Total Number:
+        <span id="total-number"></span> </h3>
           </div>
-    <div> <h2>Wins
-    <span id="Wins"></span> </h2>
+
+    <div class="col-md-3"><h3>Wins:
+    <span id="Wins"></span> </h3>
     </div>
-    <div> <h2>Losses 
-        <span id="Losses"></span> </h2>
+
+    <div class="col-md-3"><h3>Losses:
+        <span id="Losses"></span> </h3>
         </div>
         
-          
+          </div>
+        </div>
 
 <br>
 <br>
           <div class="row">
-          <div class="col-md-2 col-md-offset-2">
+          <div class="col-md-3 col-md-offset-3">
             <img id="firstClick" src="assets/images/img_3223.JPG" alt="Gem one" height="250" width="200">
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
               <img id="secondClick" src="assets/images/img_3225.JPG" alt="Gem two" height="250" width="200">
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
                 <img id="thirdClick" src="assets/images/img_3226.JPG" alt="Gem three" height="250" width="200">
             </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
 				<img id="fourthClick" src="assets/images/img_3227.JPG" alt="Gem Four" height="250" width="200">
                 </div>
                 </div>
